@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/index.css">
+
+    <link rel="icon" type="image/x-icon" href="assets\favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <title>Home</title>
+</head>
+<body>
+<audio src="./assets/sounds/nav.wav" id="audio"></audio>
+<script src="./js/playsound.js"></script>
+<div class="wrapper">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid justify-content-between">
+            <a class="navbar-brand" href="/">
+                <img src="./assets/LogoLight.svg" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 justify-content-between">
+                    <li class="nav-item">
+                        <a class="nav-link active color-white text-white" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Use.html">Use</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="quiz.html">Quiz</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="banner">
+        <div class="banner container-xxl">
+            <div class="banner-img" onmouseover="changeSize()" onmouseout="resetSize()">
+                <img src="./assets/ava.png" alt="ava">
+            </div>
+            <div class="banner-text">
+                <img src="./assets/TitleText.svg" alt="TitleText">
+            </div>
+        </div>
+        <div class="banner-scroll">
+            <img id="scrollImage" src="assets\Polygon 2.png" alt="scroll">
+        </div>
+    </div>
+
+    <div class="slider" >
+        <div class="container-xxl" id="scrollTarget">
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/frames/Frame%201.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/frames/Frame%202.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/frames/Frame%203.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/frames/Frame%204.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/frames/Frame%205.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/frames/Frame%206.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/frames/Frame%207.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/frames/Frame%208.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/frames/Frame%209.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/frames/Frame%2010.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/frames/Frame%2011.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/frames/Frame%2012.png" class="d-block w-100" alt="...">
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="footer-items">
+                <div class="footer-item">
+                    <a href="https://t.me/zarinaesth" style="color:white" ><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </div>
+                <div class="footer-item stick"></div>
+                <div class="footer-item">
+                    <a href="https://t.me/zarinaesth" style="color:white"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+                </div>
+                <div class="footer-item stick"></div>
+                <div class="footer-item">
+                    <a href="https://www.instagram.com/zarinaesth/" style="color:white"><i class="fa fa-whatsapp " aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <img src="./assets/FooterLogo.png" alt="FooterLogo">
+            <div class="footer-items">
+                <div class="footer-item">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <span>call <br>8775 378 00 48</span>
+                </div>
+                <div class="footer-item stick"></div>
+                <div class="footer-item"><i class="fa fa-envelope-o" aria-hidden=""></i>
+                    <span>mail <br>rustemovnazarina@gmail.com</span>
+                </div>
+                <div class="footer-item stick"></div>
+                <div class="footer-item"><i class="fa fa-map-marker" aria-hidden="true"></i>
+                    <span>find us <br>Astana, KZ</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<script src="js/home.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+</html>

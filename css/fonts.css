@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600&display=swap');
+
+@font-face {
+    font-family: 'Samsung Sharp Sans Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Samsung Sharp Sans Regular'), url('../assets/fonts/samsungsharpsans.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Samsung Sharp Sans Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Samsung Sharp Sans Medium'), url('../assets/fonts/samsungsharpsans-medium.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Samsung Sharp Sans Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Samsung Sharp Sans Bold'), url('../assets/fonts/samsungsharpsans-bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'FuturaBookC Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('FuturaBookC Regular'), url('../assets/fonts/FuturaBookC Regular.otf') format('otf');
+}
+
